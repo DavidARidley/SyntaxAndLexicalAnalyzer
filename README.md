@@ -115,8 +115,8 @@ bnot -> {!, id, integer, (}
 expr -> {id, integer, (} <br />
 expr* -> {'', +, id, integer, (}
 mul_op -> {id, integer , (} <br />
-mul_op* -> {'',*,id,integer,(} <br />
-sub_op -> div_op sub_op* <br />
+mul_op* -> {'',\*,id,integer,(} <br />
+sub_op -> {id,integer,(} <br />
 sub_op* -> '' <br />
 sub_op* -> - div_op sub_op* <br /> 
 sub_op* -> div_op <br />
