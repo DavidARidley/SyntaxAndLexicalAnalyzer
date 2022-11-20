@@ -125,7 +125,11 @@ term -> ( expr ) <br />
                                                 r />
 (FIRST) term -> {id, integer, (} <br />
 
-# Lexical and Syntax Errors <br />
+# d.) Ambiguity <br />
+Grammar rules prevent an ambiguous grammar. <br />
+
+
+# g.) Lexical and Syntax Errors <br />
 ## In lexerr.txt: <br />
 1.) The lexeme BEGUN create a lexical error because there is no token BEGUN in this language
 2.) The lexeme test creates a lexical error because its supposed to be an identifier, but its size is less than six, the minimum length for an identifier in this language. <br />
@@ -139,3 +143,5 @@ term -> ( expr ) <br />
 3.) The left bracket in the when statement is missing creating a syntax error. <br />
 4.) The closing right parenthesis of the loop statement is missing creating a syntax error. <br />
 5.) The closing right bracket preceding where END is supposed to be is missing creating a syntax error. <br />
+
+# h.) Parse Table <br />
