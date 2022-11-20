@@ -29,7 +29,7 @@ And: & <br />
 Or: | <br />
 
 # b.) Production Rules: <br /> <br />
-program -> BEGIN stmt_list END <br />
+program -> BEGIN { stmt_list } END <br />
 stmt_list -> stmt stmt_list* <br />
 stmt_list* -> ''  <br />
 stmt_list* -> stmt stmt_list* <br />
