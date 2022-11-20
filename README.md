@@ -105,13 +105,13 @@ term -> ( expr ) <br />
 (FIRST) bexpr* -> {'', &, !, id, integer, (} <br />
 (FIRST) bor -> {!, id, integer, (}
 (FIRST) bor* -> {'', |, !, id, integer, (} <br />
-(FIRST) beq -> {!, id, integer, ( }
-(FIRST) beq* -> {'', ==, !=, !,  id, integer, (}
+(FIRST) beq -> {!, id, integer, ( } <br />
+(FIRST) beq* -> {'', ==, !=, !,  id, integer, (} <br />
 (FIRST) bcomp -> {!, id, integer, (}* <br />
 (FIRST) bcomp* -> {'', >, <, >=, <=, !, id, integer, (} <br />
-(FIRST) bnot -> {!, id, integer, (}
+(FIRST) bnot -> {!, id, integer, (} <br />
 (FIRST) expr -> {id, integer, (} <br />
-(FIRST) expr* -> {'', +, id, integer, (}
+(FIRST) expr* -> {'', +, id, integer, (} <br />
 (FIRST) mul_op -> {id, integer , (} <br />
 (FIRST) mul_op* -> {'', \* , id, integer, (} <br />
 (FIRST) sub_op -> {id, integer, (} <br />
