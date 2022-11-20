@@ -103,7 +103,7 @@ term -> ( expr ) <br />
 (FIRST) assign -> {id} <br />
 (FIRST) bexpr -> {!, id, integer , (} <br />
 (FIRST) bexpr* -> {'', &, !, id, integer, (} <br />
-(FIRST) bor -> {!, id, integer, (}
+(FIRST) bor -> {!, id, integer, (} <br />
 (FIRST) bor* -> {'', |, !, id, integer, (} <br />
 (FIRST) beq -> {!, id, integer, ( } <br />
 (FIRST) beq* -> {'', ==, !=, !,  id, integer, (} <br />
