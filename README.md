@@ -145,14 +145,14 @@ Grammar rules prevent an ambiguous grammar. <br />
 5.) The closing right bracket preceding where END is supposed to be is missing creating a syntax error. <br />
 
 # h.) Parse Table <br />
-Code 1 <br />
+## Code 1 <br />
 ![image](https://user-images.githubusercontent.com/118642356/202885674-97f092e2-00ba-4f3a-89e5-a732b9962583.png) <br />
-Code 2 <br />
+## Code 2 <br />
 ![image](https://user-images.githubusercontent.com/118642356/202885732-18b05e4c-cb98-419e-817a-4b50c6da8df5.png) <br />
 ![image](https://user-images.githubusercontent.com/118642356/202885742-b078958f-68e6-43c2-b238-7473e4c7b8e8.png) <br />
-Code 3 (Error) <br />
+## Code 3 (Error) <br />
 ![image](https://user-images.githubusercontent.com/118642356/202885771-09b1c2a0-e3f8-407b-a716-c3212b76e8e5.png) <br />
-Code 4 (Error) <btr />
+## Code 4 (Error) <br />
 ![image](https://user-images.githubusercontent.com/118642356/202885786-561e546d-d251-4ef4-9af2-d99f3baf72b0.png) <br />
 
 
