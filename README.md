@@ -1,4 +1,4 @@
-a.) Lexical Rules: <br />
+#a.) Lexical Rules: <br />
  <br />Begin File: BEGIN <br />
 End of File: END <br />
 If Token: when <br />
@@ -28,8 +28,7 @@ Identifier: [A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z]?[A-Za-z]? <
 And: & <br />
 Or: | <br />
 
-b.) Production Rules: <br /> <br />
-
+#b.) Production Rules: <br /> <br />
 program -> BEGIN stmt_list END <br />
 stmt_list -> stmt stmt_list* <br />
 stmt_list* -> ''  <br />
@@ -93,8 +92,7 @@ term -> id <br />
 term -> integer <br />
 term -> ( expr ) <br />
 
-c.) LL Grammar <br />
-
+#c.) LL Grammar <br />
 (FIRST) program -> {BEGIN} <br />
 (FIRST) stmt_list -> {'', when, num, id, loop} <br />
 (FIRST) stmt_list* -> {when, num, id, loop} <br />
@@ -108,30 +106,20 @@ c.) LL Grammar <br />
 (FIRST) bor -> {!, id, integer, (}
 (FIRST) bor* -> {'', |, !, id, integer, (} <br />
 (FIRST) beq -> {!, id, integer, ( }
-beq* -> {'', ==, !=, !,  id, integer, (}
-bcomp -> {!, id, integer, (}* <br />
-bcomp* -> {'', >, <, >=, <=, !, id, integer, (} <br />
-bnot -> {!, id, integer, (}
-expr -> {id, integer, (} <br />
-expr* -> {'', +, id, integer, (}
-mul_op -> {id, integer , (} <br />
-mul_op* -> {'',\*,id,integer,(} <br />
-sub_op -> {id,integer,(} <br />
-sub_op* -> '' <br />
-sub_op* -> - div_op sub_op* <br /> 
-sub_op* -> div_op <br />
-div_op -> mod_op div_op* <br />
-div_op* -> '' <br />
-div_op* -> / mod_op div_op* <br />
-div_op* -> mod_op <br />
-mod_op -> exp_op mod_op* <br />
-mod_op* -> '' <br />
-mod_op* -> % exp_op mod_op* <br />
-mod_op* -> exp_op <br />
-exp_op -> term exp_op* <br />
-exp_op* -> '' <br />
-exp_op* -> E term exp_op* <br />
-exp_op* -> term <br />
-term -> id <br />
-term -> integer <br />
-term -> ( expr ) <br />
+(FIRST) beq* -> {'', ==, !=, !,  id, integer, (}
+(FIRST) bcomp -> {!, id, integer, (}* <br />
+(FIRST) bcomp* -> {'', >, <, >=, <=, !, id, integer, (} <br />
+(FIRST) bnot -> {!, id, integer, (}
+(FIRST) expr -> {id, integer, (} <br />
+(FIRST) expr* -> {'', +, id, integer, (}
+(FIRST) mul_op -> {id, integer , (} <br />
+(FIRST) mul_op* -> {'', \* , id, integer, (} <br />
+(FIRST) sub_op -> {id, integer, (} <br />
+(FIRST) sub_op* -> {'', -, id, integer, (} <br />
+(FIRST) div_op -> {id, integer, (} <br />
+(FIRST) div_op* -> {'', /, id, integer, (} <br />
+(FIRST) mod_op -> {id, integer , (} <br />
+(FIRST) mod_op* -> {'', %, id, integer, (} <br />
+(FIRST) exp_op -> {id, integer, (} <br />
+(FIRST) exp_op* -> {'', E, id, integer, (} <br />
+(FIRST) term -> {id, integer, (} <br />
