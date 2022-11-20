@@ -136,6 +136,6 @@ term -> ( expr ) <br />
 ## In synerr.txt: <br />
 1.) The left bracket following BEGIN is missing creating a syntax error <br />
 2.) The left parenthesis following the first when statement is missing creating a syntax error. <br />
-3.) The closing right parenthesis of the loop statement is missing creating a syntax error. <br />
-4.) The closing right bracket preceding where END is supposed to be is missing creating a syntax error. <br />
-5.) The end of file token END is missing creating a syntax error.<br />
+3.) The left bracket in the when statement is missing creating a syntax error.
+4.) The closing right parenthesis of the loop statement is missing creating a syntax error. <br />
+5.) The closing right bracket preceding where END is supposed to be is missing creating a syntax error. <br />
