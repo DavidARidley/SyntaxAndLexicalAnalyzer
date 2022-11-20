@@ -13,13 +13,22 @@ public class RDA {
 		this.currentToken = 0;
 	}
 	public void nextToken() {
+		/*
+		 * Proceeds to the next token
+		 */
 		this.currentToken += 1;
 		System.out.println("Next token: " + getCurrentTokenName() + " (" + getCurrentToken() + ")");
 	}
 	public Integer getCurrentToken() {
+		/*
+		 * Gets current token code
+		 */
 		return this.tokens.get(currentToken);
 	}
 	public String getCurrentTokenName() {
+		/*
+		 * Gets current token name
+		 */
 		return this.lexemes.get(currentToken);
 	}
 	public void program() {
