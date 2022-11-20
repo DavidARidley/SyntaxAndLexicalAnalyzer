@@ -6,7 +6,7 @@ Else Token: elsewhen  <br />
 Loop: loop <br />
 Addition: + <br />
 Subtraction: - <br />
-Multipl <br />ication: * <br />
+Multiplication: * <br />
 Division: / <br />
 Modulo: % <br /> 
 Exponent: E <br />
@@ -14,7 +14,7 @@ Assignment: = <br />
 Declaration: num <br />
 Greater Then: > <br />
 Less Then <br />n: < <br />
-Greater Then Or  <br />Equal To: >= <br />
+Greater Then Or Equal To: >= <br />
 Less Then Or Equal To: <= <br />
 Equal To: == <br />
 Not Equal To: != <br />
