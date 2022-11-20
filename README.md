@@ -123,3 +123,6 @@ term -> ( expr ) <br />
 (FIRST) exp_op -> {id, integer, (} <br />
 (FIRST) exp_op* -> {'', E, id, integer, (} <br />
 (FIRST) term -> {id, integer, (} <br />
+
+# Lexical and Syntax Errors <br />
+
