@@ -14,10 +14,10 @@ Assignment: = <br /> <br />
 Declaration: num <br />
 G <br />reater Than: > <br />
 Less Tha <br />n: < <br />
-Greate Than Or  <br />Equal To: >= <br />
-Less Than Or Equal To: <br /> <= <br />
+Greater Than Or  <br />Equal To: >= <br />
+Less Than Or Equal To: <= <br />
 Equal To: == <br />
-Not Equal <br /> To: != <br />
+Not Equal To: != <br />
 Not: ! <br />
 Left Bracket: { <br />
 Right Bracket: } <br />
