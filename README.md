@@ -126,7 +126,7 @@ term -> ( expr ) <br />
 (FIRST) term -> {id, integer, (} <br />
 
 # Lexical and Syntax Errors <br />
-In lexerr.txt: <br />
+## In lexerr.txt: <br />
 1.) The lexeme test creates a lexical error because its supposed to be an identifier, but its size is less than six, the minimum length for an identifier in this language. <br />
 2.) The lexeme 2, of which the identifier tester is being initialized as, creates a lexical error because the integer size (1_, 2_, 4_, or 8_) is not present. <br />
 3.) The lexeme {num creates a lexical error because an identifier must only be letters. <br />
