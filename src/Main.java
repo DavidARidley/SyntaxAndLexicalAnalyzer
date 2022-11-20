@@ -13,9 +13,9 @@ public class Main {
 		//Load our token values
 		loadTokenValues();
 		//Get Code File
-		//Path path = Path.of("test.txt");
+		Path path = Path.of("test.txt");
 		//Path path = Path.of("test2.txt");
-		Path path = Path.of("lexerr.txt");
+		//Path path = Path.of("lexerr.txt");
 		//Path path = Path.of("synerr.txt");
 		
 		//Convert into Lists containing number codes and another the valid lexemes
