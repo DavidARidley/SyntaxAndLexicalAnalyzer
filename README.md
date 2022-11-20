@@ -10,12 +10,12 @@ Multipl <br />ication: * <br />
 Division: / <br />
 Modulo: % <br /> 
 Exponent: E <br />
-Assignment: = <br /> <br />
+Assignment: = <br />
 Declaration: num <br />
-G <br />reater Than: > <br />
-Less Tha <br />n: < <br />
-Greater Than Or  <br />Equal To: >= <br />
-Less Than Or Equal To: <= <br />
+Greater Then: > <br />
+Less Then <br />n: < <br />
+Greater Then Or  <br />Equal To: >= <br />
+Less Then Or Equal To: <= <br />
 Equal To: == <br />
 Not Equal To: != <br />
 Not: ! <br />
