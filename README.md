@@ -1,4 +1,4 @@
-#a.) Lexical Rules: <br />
+# a.) Lexical Rules: <br />
  <br />Begin File: BEGIN <br />
 End of File: END <br />
 If Token: when <br />
@@ -28,7 +28,7 @@ Identifier: [A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z]?[A-Za-z]? <
 And: & <br />
 Or: | <br />
 
-#b.) Production Rules: <br /> <br />
+# b.) Production Rules: <br /> <br />
 program -> BEGIN stmt_list END <br />
 stmt_list -> stmt stmt_list* <br />
 stmt_list* -> ''  <br />
@@ -92,7 +92,7 @@ term -> id <br />
 term -> integer <br />
 term -> ( expr ) <br />
 
-#c.) LL Grammar <br />
+# c.) LL Grammar <br />
 (FIRST) program -> {BEGIN} <br />
 (FIRST) stmt_list -> {'', when, num, id, loop} <br />
 (FIRST) stmt_list* -> {when, num, id, loop} <br />
