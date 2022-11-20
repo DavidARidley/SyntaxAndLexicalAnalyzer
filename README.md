@@ -1,6 +1,6 @@
 Lexical Rules: <br />
  <br />Begin File: BEGIN <br />
-End of  <br />File: END <br />
+End of File: END <br />
 If Token: when <br />
 Else Token: elsewhen  <br />
 Loop: loop <br />
