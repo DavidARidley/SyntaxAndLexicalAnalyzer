@@ -1,15 +1,15 @@
-Lexical Rules: <br /> <br />
+Lexical Rules: <br />
  <br />Begin File: BEGIN <br />
 End of  <br />File: END <br />
-If Token: when <br /> <br />
-Else Token: elsewhen  <br /><br />
-Loop: loop <br /> <br />
-Addition: + <br /> <br />
+If Token: when <br />
+Else Token: elsewhen  <br />
+Loop: loop <br />
+Addition: + <br />
 Subtraction: - <br />
 Multipl <br />ication: * <br />
-Division: / <b <br />r />
-Modulo: % <br /> <br />
-Exponent: E <br /> <br />
+Division: / <br />
+Modulo: % <br /> 
+Exponent: E <br />
 Assignment: = <br /> <br />
 Declaration: num <br />
 G <br />reater Than: > <br />
