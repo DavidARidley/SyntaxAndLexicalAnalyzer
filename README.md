@@ -13,7 +13,7 @@ Exponent: E <br />
 Assignment: = <br />
 Declaration: num <br />
 Greater Then: > <br />
-Less Then <br />n: < <br />
+Less Then: < <br />
 Greater Then Or Equal To: >= <br />
 Less Then Or Equal To: <= <br />
 Equal To: == <br />
