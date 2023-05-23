@@ -59,7 +59,7 @@ public class Main {
 		tokenValues.put("&", 30);
 		tokenValues.put("|", 31);
 		tokenValues.put("E", 32);
-		tokenValues.put("%", 32);
+		tokenValues.put("%", 33);
 		
 	}
 	public static List<String> getLexemes(Path pathToFile) {
