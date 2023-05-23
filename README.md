@@ -1,3 +1,5 @@
+# Objective <br />
+Create a Syntax and Lexical Analyzer using Java. <br/>
 # a.) Lexical Rules: <br />
  <br />Begin File: BEGIN <br />
 End of File: END <br />
